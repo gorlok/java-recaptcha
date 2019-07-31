@@ -48,3 +48,7 @@ On your Tomcat Server instance, right click on it and select "Customize JVM Opti
 ```
 
 Then restart Tomcat Server from VS Code.
+
+### Credits and Thanks
+
+This example is based on [How to integrate Google reCAPTCHA in Java Web Application](https://www.journaldev.com/7133/how-to-integrate-google-recaptcha-in-java-web-application) from Pankaj
