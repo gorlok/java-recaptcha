@@ -1,4 +1,4 @@
-# Google reCaptcha for Java
+# Google reCAPTCHA for Java
 
 Minimal Java web example of reCAPTCHA, using Java 7, Apache Tomcat and a plain Servlet. No extra requeriments.
 
@@ -17,7 +17,7 @@ Save for later your "site key" and "secret key". You will need both them on your
 Change data-sitekey on login.html using your generated "site key".
 Change secret string on VerifyRecaptcha.java using your generated "secret key".
 
-*NOTE*: secure your keys in real world for Turing's sake!
+*NOTE*: secure your keys in real world, for Turing's sake!
 
 ### Compile and run
 
