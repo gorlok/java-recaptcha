@@ -1,4 +1,4 @@
-package com.journaldev.utils;
+package com.example.utils;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -15,10 +15,9 @@ import javax.net.ssl.HttpsURLConnection;
 public class VerifyRecaptcha {
 
 	public static final String url = "https://www.google.com/recaptcha/api/siteverify";
-	public static final String secret = "xxxxxxxxxx";
 	private final static String USER_AGENT = "Mozilla/5.0";
 
-	public static boolean verify(String gRecaptchaResponse) throws IOException {
+	public static boolean verify(String gRecaptchaResponse, String secret) throws IOException {
 		if (gRecaptchaResponse == null || "".equals(gRecaptchaResponse)) {
 			return false;
 		}

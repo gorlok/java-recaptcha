@@ -12,10 +12,9 @@ Register a new site. Enter any label. Select *"reCAPTCHA v2"* type. Enter *"loca
 
 Save for later your "site key" and "secret key". You will need both them on your code.
 
-### Update your code with your keys.
+### Write your config
 
-Change data-sitekey on login.html using your generated "site key".
-Change secret string on VerifyRecaptcha.java using your generated "secret key".
+Copy file config.sample.properties to config.properties. Then write your key and secret values on config.properties.
 
 *NOTE*: secure your keys in real world, for Turing's sake!
 

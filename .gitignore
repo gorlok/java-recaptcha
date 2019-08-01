@@ -1,3 +1,6 @@
+# Exclude key&secret reCAPTCHA values
+config.properties
+
 ##########################
 ## Java
 ##########################

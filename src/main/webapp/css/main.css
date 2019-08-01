@@ -1,0 +1,62 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+form {
+    border: 1px silver solid;
+    border-radius: 5px;
+    padding: 1rem;    
+    display: block;
+    width: 19rem;  
+}
+
+label {
+    display: inline-block;
+    width: 6rem;
+}
+
+input[type=text],
+input[type=password] {
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
+input[type=submit] {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    width: 10rem;
+    padding: .375rem .75rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;    
+}
+
+.alert {
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;    
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
